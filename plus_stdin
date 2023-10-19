@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Reo Fujimoto 
+
 import sys
 
 ans = 0   #もともと0.0だったのを0に変更
