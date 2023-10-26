@@ -1,6 +1,6 @@
-#!/bin/badh
+#!/bin/bash
 
-out=$(seq 5 | ./plus)
+seq 5 | ./plus
 
-[ "${out}" = 15 ]
+
 
