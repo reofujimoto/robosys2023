@@ -2,7 +2,8 @@
 ロボットシステム学2023の練習リポジトリ.
 
 ## plusコマンド 
-![test](https://github.com/reofujimoto/robosys2023/tree/main/.github/workflows/test.yml)
+
+[![test](https://github.com/reofujimoto/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/reofujimoto/robosys2023/actions/workflows/test.yml)
 
 ↑ テスト結果を反映したバッジの画像が埋め込まれる。
 
