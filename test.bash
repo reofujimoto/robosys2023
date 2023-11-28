@@ -25,10 +25,8 @@ out=$(echo | ./plus)
 ### conversion_TEST ###
  
 out=$(./conversion.py 180)
-[ "${out}" = 換算: 3.141592653589793
-             radians関数: 3.141592653589793 
-] || ng ${LINENO}
-
+[ "${out}" = 換算結果 3.141592653589793
+             radians関数 3.141592653589793 ] || ng ${LINENO}
 
 out=$(echo あ | ./conversion.py )
 [ "$?" = 1 ]      || ng ${LINENO}
