@@ -11,5 +11,5 @@ deg = 0
 for n in sys.argv[1:]:
     deg = int(n)
 
-print("換算結果", deg * np.pi / 180,)
-print("radians関数", np.radians(deg))
+print( deg * np.pi / 180 )
+print( np.radians(deg) )
