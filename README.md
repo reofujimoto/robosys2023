@@ -21,20 +21,19 @@ $ seq 5 | ./plus
 ```
 
 
+## ダウンロード方法
+```
+$ git clone git@github.com:reofujimoto/robosys2023.git
+$ cd robosys2023/
+```
+
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7〜3.10
 
 ## テスト環境
-* Ubuntu
+* Ubuntu 22.04
 
-## インストール方法
-
-aaaa
-
-## 使い方
-
-bbbbbb
 
 ## 著作権・ライセンス
 
