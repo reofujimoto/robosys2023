@@ -1,16 +1,25 @@
 # robosys2023
 ロボットシステム学2023の練習リポジトリ.
-
-## plusコマンド 
+授業で作成したプログラム
 
 [![test](https://github.com/reofujimoto/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/reofujimoto/robosys2023/actions/workflows/test.yml)
 
-↑ テスト結果を反映したバッジの画像が埋め込まれる。
+## plusコマンド 
 
 標準入力から読み込んだ数字を足す。
 
-（ここに前ページの項目をいろいろ書く）
+### 入力例
 
+1~5の整数を順に足す
+```
+seq 5 | ./plus
+```
+
+### 出力例
+
+```
+15
+```
 
 ## 必要なソフトウェア
 * Python
