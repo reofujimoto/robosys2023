@@ -21,9 +21,26 @@ $ seq 5 | ./plus
 ```
 
 
+## conversionコマンド
+「度単位」を「ラジアン単位」に換算する
+
+### 入力例
+```
+$ ./conversion.py 180
+```
+
+### 出力
+1行目: π/180を入力した値の「度単位」にかけることで「ラジアン単位」に換算する
+2行目: radians関数を用いるため、計算方法がわからなくても換算できる
+
+```
+$ 換算結果 3.141592653589793
+$ radians関数 3.141592653589793
+```
+
 ## ダウンロード方法
 ```
-$ git clone git@github.com:reofujimoto/robosys2023.git
+$ git clone https://github.com/reofujimoto/robosys2023.git
 $ cd robosys2023/
 ```
 
