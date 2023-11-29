@@ -26,6 +26,14 @@ out=$(echo | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
+out=$(echo あ | ./conversion.py)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./conversion.py)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
 ### conversion_TEST ###
 out=$(./conversion.py 180)
 [ "${out}" = "換算結果 3.141592653589793
