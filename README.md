@@ -30,8 +30,8 @@ $ ./conversion.py 180
 ```
 
 ### 出力
-* 1行目: π/180を入力した値の「度単位」にかけることで「ラジアン単位」に換算する
-* 2行目: radians関数を用いるため，計算方法がわからなくても換算できる
+* 1行目 : π/180を入力した値の「度単位」にかけることで「ラジアン単位」に換算する
+* 2行目 : radians関数を用いるため，計算方法がわからなくても換算できる
 
 ```
 $  3.141592653589793
@@ -55,6 +55,6 @@ $ cd robosys2023/
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます． 
 
 * このパッケージのコードは，下記のGit hub上のコードを参照し，本人の許可を得て自身の著作としたものです． 
-	* [ryuichiueda/robosys2023](https://github.com/ryuichiueda/robosys2023)
+  * [ryuichiueda/robosys2023](https://github.com/ryuichiueda/robosys2023)
 
 * © 2023 Reo Fujimoto
