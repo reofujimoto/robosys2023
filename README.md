@@ -32,17 +32,13 @@ $ cd robosys2023/
   * テスト済み: 3.7〜3.10
 
 ## テスト環境
-* Ubuntu 22.04
-
+* Ubuntu 22.04.02
 
 ## 著作権・ライセンス
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
-* このパッケージは，cccさん由来のコード（© 2023 dddさん）を利用しています．
-
-* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-	* [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
-
+* このパッケージのコードは，下記のコードを参照して（CC-BY-SA 4.0 by Ryuichi Ueda），本人の許可を得て自身の著作としたものです．
+	* [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/robosys2023)
 
 * © 2023 Reo Fujimoto
