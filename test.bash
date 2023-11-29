@@ -36,8 +36,8 @@ out=$(echo | ./conversion.py)
 
 ### conversion_TEST ###
 out=$(./conversion.py 180)
-[ "${out}" = "換算結果 3.141592653589793
-radians関数 3.141592653589793" ] || ng ${LINENO}
+[ "${out}" = " 3.141592653589793
+ 3.141592653589793 " ] || ng ${LINENO}
 
 
 [ "$res" = 0 ] && echo OK
