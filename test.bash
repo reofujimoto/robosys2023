@@ -8,6 +8,7 @@ ng () {
 }
 res=0
 
+
 ### I/O TEST ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
@@ -28,4 +29,3 @@ radians関数 3.141592653589793" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
-
